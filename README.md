@@ -1,1 +1,5 @@
 # HALK_Bot
+
+HALK_Bot is a reddit tool created to assist reddit users. It actively scans for new comments containing the phrase "!deleted" and saves the original parent comment to a UTF-8 encoded file. Currently, the tool will only work for the subreddit "Askreddit," but future updates will allow the  user to choose which subreddits it works with. The designed use of this tool is to discover what [deleted] or [removed] comments used to be. Since this tool will find the original unedited parent comment, it allows users to gain insight as to why a certain comment was removed or edited. The next update will include the ability to private message users who post "!deleted," making it possible for users to utilize the tool without running it from their own computer. 
+
+Note: Due to limitations in the reddit API, not all comments can be detected during peak activity hours. Additionally, only comments made after the tool has been activated can be "undeleted." If the comment was made before the tool was activated, the tool will not have records of the original comment and will be unable to provide the desired information. 
