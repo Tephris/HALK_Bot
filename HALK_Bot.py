@@ -32,7 +32,7 @@ if not os.path.isfile("Deleted_Comments.txt"):
 	Deleted_Comments = []
 
 # Get the as many values as possible from our subreddit
-subreddit = reddit.subreddit('pythonforengineers')
+subreddit = reddit.subreddit('askreddit')
 
 for comment in subreddit.stream.comments():
 	#print(submission.title)
